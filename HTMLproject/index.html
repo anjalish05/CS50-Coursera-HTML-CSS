@@ -13,23 +13,36 @@
             h1 {
                 color: white;
                 font-family: "Arial";
-                font-size: 80px;
+                font-size: 50px;
                 text-align: center;
                 margin: 200px;
             }
-            form {
+            #main {
                 text-align: center;
                 margin: -150px;
                 font-size: 10px;
+            }
+            input {
+                border-radius: 25px;
+                size: "1000";
+            }
+            a {
+                color: black;
+                border: 2px solid white;
+                text-align: center;
+                margin: 150px;
+                font-size: 10px;
+                padding: 10px;
             }
         </style>
     </head>
 
     <body>
         <h1>Google</h1> 
-        <form action = "https://google.com/search">
+        <form id = "main" action = "https://google.com/search">
             <input type = "text" name = "q">
             <input type = "submit" value = "Google Search">
         </form>
+        <a href = "https://www.google.com/doodles">I'm Feeling Lucky</a>
     </body>
 </html>
