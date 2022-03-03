@@ -1,2 +1,2 @@
-# Coursera-test
-Coursera test repository to submit assignments and tests
+# CS50 - Web Programming with Python and Javascript 
+Made to practice and do projects from the course 
